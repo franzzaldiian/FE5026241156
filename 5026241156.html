@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Bootstrap 4 Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <style>
+        body {
+            font-family: Georgia, serif;
+            background-color: white;
+            margin: 0;
+            padding: 0;
+        }
+
+        .section-heading {
+            text-align: center;
+            font-size: 2rem;
+            font-weight: 400;
+            color: #3a3a3a;
+            margin-bottom: 70px;
+        }
+
+        .card-box {
+            display: flex;
+            flex-direction: row;
+            gap: 20px;
+            align-items: flex-start;
+            margin-bottom: 40px;
+        }
+
+        .card-img {
+            width: 64px;
+            height: 64px;
+            border-radius: 50%;
+            object-fit: cover;
+            flex-shrink: 0;
+        }
+
+        .quote-text {
+            font-size: 0.88rem;
+            color: #888;
+            line-height: 1.7;
+            font-style: italic;
+            margin-bottom: 12px;
+        }
+
+        .person-name {
+            font-size: 0.78rem;
+            font-weight: 700;
+            letter-spacing: 0.08em;
+            color: #333;
+            font-family: Arial, sans-serif;
+            margin-bottom: 3px;
+        }
+
+        .person-title {
+            font-size: 0.75rem;
+            color: #aaa;
+            font-family: Arial, sans-serif;
+        }
+
+        .logo-bar {
+            background-color: #e8e8e8;
+            padding: 32px 180px;
+        }
+
+        .logo-bar-inner {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            max-width: 1300px;
+            margin: 0 auto;
+        }
+
+        .logo-img {
+            height: 36px;
+            width: auto;
+            opacity: 0.55;
+            filter: grayscale(100%);
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div style="width: auto; min-height: 100vh; background-color: white; display: flex; flex-direction: column;">
+
+        <div style="flex: 1; padding: 90px 180px 60px 180px;">
+
+            <h2 class="section-heading">Our clients love us.</h2>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="card-box">
+                            <img class="card-img" src="https://i.pravatar.cc/150?img=11" alt="james" />
+                            <div>
+                                <p class="quote-text">
+                                    "I have owned many luxury sneakers over the years, but nothing compares to the
+                                    craftsmanship of these. The Italian leather on the heel panel alone is worth every
+                                    penny. Received compliments at every event I attended this season."
+                                </p>
+                                <p class="person-name">JAMES WHITMORE</p>
+                                <p class="person-title">Private Asset Manager · London</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <div class="card-box">
+                            <img class="card-img" src="https://i.pravatar.cc/150?img=47" alt="isabelle" />
+                            <div>
+                                <p class="quote-text">
+                                    "After seeing these on a yacht trip in Monaco, I had to have them. Ordered three
+                                    colourways immediately. The sole grip is unreal and the packaging itself feels like
+                                    a gift from a five-star hotel. Absolutely addictive."
+                                </p>
+                                <p class="person-name">ISABELLE FONTAINE</p>
+                                <p class="person-title">Nouveau Riche · Monaco</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <div class="card-box">
+                            <img class="card-img" src="https://i.pravatar.cc/150?img=58" alt="lord marcus" />
+                            <div>
+                                <p class="quote-text">
+                                    "Our estate has a tradition of patronising only the finest craftsmen. These sneakers
+                                    have earned their place alongside our collection. The hand-stitched detailing is
+                                    extraordinary — nothing mass-produced could ever replicate this."
+                                </p>
+                                <p class="person-name">LORD MARCUS ALDRIDGE</p>
+                                <p class="person-title">Royal Household Collector · Edinburgh</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <div class="card-box">
+                            <img class="card-img" src="https://i.pravatar.cc/150?img=32" alt="priya" />
+                            <div>
+                                <p class="quote-text">
+                                    "I source pieces for fashion houses across Milan and Paris. Rarely do I find
+                                    something that stops me mid-stride — these did exactly that. The collab colourway
+                                    sold out in 4 minutes and I still cannot believe I got a pair."
+                                </p>
+                                <p class="person-name">PRIYA NAIR</p>
+                                <p class="person-title">Senior International Fashion Director · Milan</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="logo-bar">
+            <div class="logo-bar-inner">
+                <img class="logo-img"
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/1024px-Instagram_icon.png"
+                    alt="Instagram" />
+                <img class="logo-img"
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/2023_Facebook_icon.svg/1024px-2023_Facebook_icon.svg.png"
+                    alt="Facebook" />
+                <img class="logo-img"
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/X_logo_2023_original.svg/1024px-X_logo_2023_original.svg.png"
+                    alt="X" />
+                <img class="logo-img"
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/1024px-WhatsApp.svg.png"
+                    alt="WhatsApp" />
+                <img class="logo-img"
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/YouTube_full-color_icon_%282017%29.svg/1024px-YouTube_full-color_icon_%282017%29.svg.png"
+                    alt="YouTube" />
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
